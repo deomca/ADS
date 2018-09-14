@@ -1,0 +1,82 @@
+﻿body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#7F7F7F;
+}
+.maroonHeader {
+	color: #990000;
+	font-weight: bold;
+}
+.imageblueBorder {
+	border: 1px solid #006699;
+}
+.topBtnLink {
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	padding-top: 3px;
+	}
+.blueBgColor {
+	background-color: #E7EFF7;
+}
+.blueBGLine {
+	background-color: #B5C7EF;
+}
+.ivoryBGColor {
+	background-color: #FEFFDB;
+}
+
+
+.bookNowBtn {
+	font-weight: normal;
+	color: #330099;
+	text-decoration: underline;
+}
+body {
+	background-color: #676561;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.blackText {
+	color: #000000;
+}
+.blueHeader {
+	color: #330099;
+	font-weight: bold;
+}
+.maroonButton {
+	font-weight: bold;
+	color: #990000;
+	text-decoration: none;
+}
+.maroonLargeHeader {
+	color: #990000;
+	font-weight: bold;
+	font-size: large;
+}
+.maroonNormalUndelineText {
+
+	font-weight: normal;
+	color: #990000;
+	text-decoration: underline;
+}
+.blueLargeHeader {
+	color: #330099;
+	font-weight: bold;
+	font-size: large;
+}
+.blackBoldText {
+	color: #000000;
+	font-weight: bold;
+}
+.ivoryBGLine {
+
+	background-color: #F7E3BD;
+}
+.imageIvoryBorder {
+
+	border: 1px solid #F7E3BD;
+}
+

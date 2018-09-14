@@ -1,0 +1,47 @@
+﻿body {
+	margin-left: 0px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #E8E8E8;
+}
+body,td,th {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+a:link {
+	color: #003366;
+}
+a:visited {
+	color: #003366;
+}
+a:hover {
+	color: #FF6600;
+}
+a:active {
+	color: #003366;
+}
+.navBarText {
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 12px;
+}
+.fieldLabels {
+	font-weight: bold;
+	font-size: 11px;
+	color: #003366;
+	line-height:18px;
+}
+
+.allSideBox {
+	border: 1px solid #5A9ADE;
+}
+.orderNumberRed {
+	padding-bottom: 10px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #FF0000;
+}
+.redNormal {color: #FF0000}
+.redBold {font-weight: bold; font-size: 11px; color: #FF0000; line-height: 18px; }
+

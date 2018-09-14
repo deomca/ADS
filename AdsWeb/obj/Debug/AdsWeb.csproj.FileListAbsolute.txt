@@ -1,0 +1,10 @@
+D:\Projects\AdsWeb\AdsWeb\bin\AdsWeb.dll.config
+D:\Projects\AdsWeb\AdsWeb\bin\AdsWeb.dll
+D:\Projects\AdsWeb\AdsWeb\bin\AdsWeb.pdb
+D:\Projects\AdsWeb\AdsWeb\bin\AdsCom.dll
+D:\Projects\AdsWeb\AdsWeb\bin\AdsCom.pdb
+D:\Projects\AdsWeb\AdsWeb\obj\Debug\AdsWeb.csprojResolveAssemblyReference.cache
+D:\Projects\AdsWeb\AdsWeb\obj\Debug\AdsWeb.csproj.CoreCompileInputs.cache
+D:\Projects\AdsWeb\AdsWeb\obj\Debug\AdsWeb.csproj.CopyComplete
+D:\Projects\AdsWeb\AdsWeb\obj\Debug\AdsWeb.dll
+D:\Projects\AdsWeb\AdsWeb\obj\Debug\AdsWeb.pdb

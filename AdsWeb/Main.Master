@@ -1,0 +1,215 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="AdsWeb.Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="Styles/Styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table style="height: 400" width="100%" cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td width="11" style="background: images/pageLineBgLeft.jpg">
+                        &nbsp;
+                    </td>
+                    <td width="1000" valign="top" bgcolor="#ffffff">
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="200" valign="top">
+                                                        <img height="50" width="125" alt="" src="images/logo.jpg" /><strong>ADS6.0</strong>
+                                                    </td>
+                                                    <td valign="bottom">
+                                                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td height="40" valign="middle" align="right" style="padding-right: 10px; padding-top: 10px;
+                                                                        padding-bottom: 20px;">
+                                                                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        Find:
+                                                                                        <asp:DropDownList ID="drpSearch" runat="server">
+                                                                                            <asp:ListItem Text="ORDER#" Value="Order"></asp:ListItem>
+                                                                                            <asp:ListItem Text="EVENT#" Value="Event"></asp:ListItem>
+                                                                                        </asp:DropDownList>
+                                                                                        <asp:TextBox ID="txtId" runat="server"></asp:TextBox>
+                                                                                        <asp:ImageButton ID="btnSearch" src="images/btnSearch.gif" runat="server" OnClick="btnSearch_Click1" />
+                                                                                    </td>
+                                                                                    <td valign="top" align="right">
+                                                                                        <table cellspacing="0" cellpadding="0" border="0">
+                                                                                            <tbody>
+                                                                                                <tr>
+                                                                                                    <td height="9" width="7">
+                                                                                                        <img alt="Left Curve" height="9" width="7" src="images/ivoryFilledLeftCurve.jpg" />
+                                                                                                    </td>
+                                                                                                    <td style="background: images/ivoryFilledTopBg.jpg">
+                                                                                                    </td>
+                                                                                                    <td height="9" width="7">
+                                                                                                        <img alt="Right Curve" height="9" width="7" src="images/ivoryFilledRightCurve.jpg" />
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td style="background: images/ivoryFilledLeftBg.jpg">
+                                                                                                    </td>
+                                                                                                    <td class="ivoryBGColor">
+                                                                                                        <table id="Table1" width="100%" cellspacing="0" cellpadding="0" border="0" runat="server">
+                                                                                                            <tbody>
+                                                                                                                <tr>
+                                                                                                                    <td width="130" align="left">
+                                                                                                                        <%--<span class="maroonHeader">--%>
+                                                                                                                        <asp:Label class="maroonHeader" ID="lblsession" runat="server" /><%--</span>--%>
+                                                                                                                    </td>
+                                                                                                                    <td align="left">
+                                                                                                                        <asp:LinkButton class="maroonHeader" ID="lnkMyAds" Text="My ADS" runat="server" OnClick="lnkMyAds_Click"></asp:LinkButton>
+                                                                                                                        |<asp:LinkButton class="maroonHeader"   ID="lnkChangePass" Text="ChangePassword"
+                                                                                                                            runat="server" OnClick="lnkChangePass_Click"></asp:LinkButton>
+                                                                                                                        |<asp:LinkButton class="maroonHeader" ID="lnkActivityLog" Text="Activity Log"
+                                                                                                                            runat="server" OnClick="lnkActivityLog_Click"></asp:LinkButton>| <a class="maroonNormalUndelineText"
+                                                                                                                                href="Login.aspx">Logout</a>
+                                                                                                                    </td>
+                                                                                                                </tr>
+                                                                                                            </tbody>
+                                                                                                        </table>
+                                                                                                    </td>
+                                                                                                    <td style="background: images/ivoryFilledRightBg.jpg">
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                                <tr>
+                                                                                                    <td height="9" width="7">
+                                                                                                        <img alt="Bottem Left Curve" height="9" width="7" src="images/ivoryFilledLeftBottomCurve.jpg" />
+                                                                                                    </td>
+                                                                                                    <td style="background: images/ivoryFilledBottomBg.jpg">
+                                                                                                    </td>
+                                                                                                    <td height="9" width="7">
+                                                                                                        <img alt="Bottem Right Curve" height="9" width="7" src="images/ivoryFilledRightBottomCurve.jpg" />
+                                                                                                    </td>
+                                                                                                </tr>
+                                                                                            </tbody>
+                                                                                        </table>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td style="padding-left: 8px;" colspan="2">
+                                                                                        Total Unsubmitted Orders in ADS:<asp:Label ID="lblOrders" runat="server"></asp:Label>
+                                                                                        <a class="maroonNormalUndelineText" href="#">Notice</a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <table cellspacing="0" cellpadding="0" border="0">
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td height="22" width="12" style="background: images/topBtnLeftImage.gif">
+                                                                                    </td>
+                                                                                    <td align="center" height="22" width="12" style="background: Images/topBtnBg.gif">
+                                                                                        <asp:LinkButton class="topBtnLink" Width="70"  ID="lnkBtnInDesign"
+                                                                                            Text="InDesign" runat="server" OnClick="lnkBtnInDesign_Click"></asp:LinkButton>
+                                                                                    </td>
+                                                                                    <td height="22" width="12" style="background: images/topBtnRightImage.gif">
+                                                                                    </td>
+                                                                                    <td height="22" width="12" style="background: images/topBtnLeftImage.gif">
+                                                                                    </td>
+                                                                                    <td align="center" height="22" width="12" style="background: Images/topBtnBg.gif">
+                                                                                        <asp:LinkButton class="topBtnLink" Width="50"  ID="lnlBtnInQa" Text="InQA"
+                                                                                            runat="server" OnClick="lnlBtnInQa_Click"></asp:LinkButton>
+                                                                                    </td>
+                                                                                    <td height="22" width="12" style="background: images/topBtnRightImage.gif">
+                                                                                    </td>
+                                                                                    <td height="22" width="12" style="background: images/topBtnLeftImage.gif">
+                                                                                    </td>
+                                                                                    <td align="center" height="22" width="12" style="background: Images/topBtnBg.gif">
+                                                                                        <asp:LinkButton class="topBtnLink" Width="70"  ID="lnlBtnFinalQa" Text="FinalQa"
+                                                                                            runat="server" OnClick="lnlBtnFinalQa_Click"></asp:LinkButton>
+                                                                                    </td>
+                                                                                    <td height="22" width="12" style="background: images/topBtnRightImage.gif">
+                                                                                    </td>
+                                                                                    <td height="22" width="12" style="background: images/topBtnLeftImage.gif">
+                                                                                    </td>
+                                                                                    <td align="center" height="22" width="12" style="background: Images/topBtnBg.gif">
+                                                                                        <asp:LinkButton class="topBtnLink" Width="100"  ID="lnkBtnInSubmission"
+                                                                                            Text="InSubmission" runat="server" OnClick="lnkBtnInSubmission_Click"></asp:LinkButton>
+                                                                                    </td>
+                                                                                    <td height="22" width="12" style="background: images/topBtnRightImage.gif">
+                                                                                    </td>
+                                                                                    <td height="22" width="12" style="background: images/topBtnLeftImage.gif">
+                                                                                    </td>
+                                                                                    <td align="center" height="22" width="12" style="background: Images/topBtnBg.gif">
+                                                                                        <asp:LinkButton class="topBtnLink" Width="70"  ID="lnkBtnONHold" Text="ON Hold"
+                                                                                            runat="server" OnClick="lnkBtnONHold_Click"></asp:LinkButton>
+                                                                                    </td>
+                                                                                    <td height="22" width="12" style="background: images/topBtnRightImage.gif">
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="11" style="background: images/topShadedBg.gif">
+                                    </td>
+                                </tr>
+                                <!-- Content Starts -->
+                                <!-- Content Ends -->
+                                <tr>
+                                    <td>
+                                        &nbsp;
+                                        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                                        </asp:ContentPlaceHolder>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="1" bgcolor="#666666">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="1" bgcolor="#666666">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <br />
+                                        &copy; 2007-2008 Paragon IT Services Pvt. Ltd., New Delhi - INDIA
+                                        <br />
+                                        <br />
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                    <td width="11" style="background: images/pageLineBgRight.jpg">
+                        &nbsp;
+                    </td>
+                    <td>
+                        &nbsp;
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

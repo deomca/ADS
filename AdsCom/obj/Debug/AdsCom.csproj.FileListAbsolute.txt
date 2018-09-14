@@ -1,0 +1,6 @@
+D:\Projects\AdsWeb\AdsCom\bin\Debug\AdsCom.dll
+D:\Projects\AdsWeb\AdsCom\bin\Debug\AdsCom.pdb
+D:\Projects\AdsWeb\AdsCom\obj\Debug\AdsCom.csprojResolveAssemblyReference.cache
+D:\Projects\AdsWeb\AdsCom\obj\Debug\AdsCom.csproj.CoreCompileInputs.cache
+D:\Projects\AdsWeb\AdsCom\obj\Debug\AdsCom.dll
+D:\Projects\AdsWeb\AdsCom\obj\Debug\AdsCom.pdb

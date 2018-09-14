@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdsWeb", "AdsWeb\AdsWeb.csproj", "{9C4029A5-70EA-47C8-B89F-29404C006F92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdsCom", "AdsCom\AdsCom.csproj", "{EB841DEE-66F7-4318-9E6B-3800BCA31EBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9C4029A5-70EA-47C8-B89F-29404C006F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4029A5-70EA-47C8-B89F-29404C006F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4029A5-70EA-47C8-B89F-29404C006F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4029A5-70EA-47C8-B89F-29404C006F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB841DEE-66F7-4318-9E6B-3800BCA31EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB841DEE-66F7-4318-9E6B-3800BCA31EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB841DEE-66F7-4318-9E6B-3800BCA31EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB841DEE-66F7-4318-9E6B-3800BCA31EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE6173C6-4BDE-4EA0-98B4-9CCA6DD05A4C}
+	EndGlobalSection
+EndGlobal
