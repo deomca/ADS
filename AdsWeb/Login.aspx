@@ -111,6 +111,7 @@
                                                         </td>
                                                         <td align="left">
                                                             <asp:Button ID="btnLogin" runat="server" Text="L O G I N" OnClick="btnLogin_Click1" />
+                                                            <asp:Button ID="btnLogin0" runat="server" Text="RESET" OnClick="btnLogin_Click1" />
                                                             <br>
                                                             <br>
                                                         </td>
@@ -137,8 +138,7 @@
                                     <tr>
                                         <td align="center">
                                             <br>
-                                            © 2007-2008 TiwariInfotech Pvt. Ltd., New Delhi - INDIA
-                                            <br>
+                                            © 2007-2008 TiwariInfotech Pvt. Ltd., New Delhi - INDIA <br>
                                             <br>
                                         </td>
                                     </tr>
