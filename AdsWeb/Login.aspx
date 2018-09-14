@@ -137,7 +137,7 @@
                                     <tr>
                                         <td align="center">
                                             <br>
-                                            &copy; 2007-2008 Paragon IT Services Pvt. Ltd., New Delhi - INDIA
+                                            © 2007-2008 TiwariInfotech Pvt. Ltd., New Delhi - INDIA
                                             <br>
                                             <br>
                                         </td>
