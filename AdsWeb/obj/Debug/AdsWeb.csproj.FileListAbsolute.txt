@@ -8,3 +8,13 @@ D:\Projects\AdsWeb\AdsWeb\obj\Debug\AdsWeb.csproj.CoreCompileInputs.cache
 D:\Projects\AdsWeb\AdsWeb\obj\Debug\AdsWeb.csproj.CopyComplete
 D:\Projects\AdsWeb\AdsWeb\obj\Debug\AdsWeb.dll
 D:\Projects\AdsWeb\AdsWeb\obj\Debug\AdsWeb.pdb
+C:\Users\Ayan\Desktop\AdsWeb\AdsWeb\bin\AdsWeb.dll.config
+C:\Users\Ayan\Desktop\AdsWeb\AdsWeb\bin\AdsWeb.dll
+C:\Users\Ayan\Desktop\AdsWeb\AdsWeb\bin\AdsWeb.pdb
+C:\Users\Ayan\Desktop\AdsWeb\AdsWeb\bin\AdsCom.dll
+C:\Users\Ayan\Desktop\AdsWeb\AdsWeb\bin\AdsCom.pdb
+C:\Users\Ayan\Desktop\AdsWeb\AdsWeb\obj\Debug\AdsWeb.csprojAssemblyReference.cache
+C:\Users\Ayan\Desktop\AdsWeb\AdsWeb\obj\Debug\AdsWeb.csproj.CoreCompileInputs.cache
+C:\Users\Ayan\Desktop\AdsWeb\AdsWeb\obj\Debug\AdsWeb.csproj.CopyComplete
+C:\Users\Ayan\Desktop\AdsWeb\AdsWeb\obj\Debug\AdsWeb.dll
+C:\Users\Ayan\Desktop\AdsWeb\AdsWeb\obj\Debug\AdsWeb.pdb

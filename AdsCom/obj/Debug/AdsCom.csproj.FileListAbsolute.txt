@@ -4,3 +4,9 @@ D:\Projects\AdsWeb\AdsCom\obj\Debug\AdsCom.csprojResolveAssemblyReference.cache
 D:\Projects\AdsWeb\AdsCom\obj\Debug\AdsCom.csproj.CoreCompileInputs.cache
 D:\Projects\AdsWeb\AdsCom\obj\Debug\AdsCom.dll
 D:\Projects\AdsWeb\AdsCom\obj\Debug\AdsCom.pdb
+C:\Users\Ayan\Desktop\AdsWeb\AdsCom\bin\Debug\AdsCom.dll
+C:\Users\Ayan\Desktop\AdsWeb\AdsCom\bin\Debug\AdsCom.pdb
+C:\Users\Ayan\Desktop\AdsWeb\AdsCom\obj\Debug\AdsCom.csprojAssemblyReference.cache
+C:\Users\Ayan\Desktop\AdsWeb\AdsCom\obj\Debug\AdsCom.csproj.CoreCompileInputs.cache
+C:\Users\Ayan\Desktop\AdsWeb\AdsCom\obj\Debug\AdsCom.dll
+C:\Users\Ayan\Desktop\AdsWeb\AdsCom\obj\Debug\AdsCom.pdb
